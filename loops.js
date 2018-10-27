@@ -23,6 +23,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop( array ) {
+    let i = 0
     do {
         array.pop()
     } while ( array.length > 0 && incrementVariable() )
