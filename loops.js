@@ -4,12 +4,14 @@ function forLoop( array ) {
         array.push( `I am 1 strange loop.` )
       else
         array.push( `I am ${i} strange loops.` )
-      
+
   }
   return array
 }
 
 
 function whileLoop( n ) {
-  return n
+  while( n > -1 )
+    console.log( n )
+  return 'done'
 }
